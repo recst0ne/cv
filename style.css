@@ -1,0 +1,44 @@
+
+body{
+	background-image: url(dessin.png);
+	background-repeat: no-repeat;
+	background-size: 110%;
+	color: white;
+}
+h1{
+
+	text-align: center;
+
+}
+#color {
+	color: green;
+}
+.subtitle {
+
+	text-align: center;
+	font-style: italic;
+	font-size: 150%;
+}
+img {
+	text-align: right;
+}
+h2 { 
+	border: 5px black groove;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 3px black ;
+
+}
+@font-face {
+	font-family: VerilySerifMono;
+	src: url(verily_serif_mono/VerilySerifMono.otf);
+}
+li {
+	font-family:VerilySerifMono; 
+}
+a {
+	text-decoration: none;
+	color: green;
+}
